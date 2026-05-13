@@ -1,0 +1,7 @@
+## SOC-Lite Triage Tool
+
+- Built a Python-based SOC triage tool for analyzing Windows, Linux, and Splunk-style CSV logs
+- Detects failed login spikes, suspicious PowerShell/cmd activity, privileged activity, and public IP logins
+- Maps alerts to MITRE ATT&CK techniques and generates Markdown + JSON reports
+- Tools: Python, CSV logs, MITRE ATT&CK, SOC Triage, Incident Response
+** To Run:** python soc_lite.py --input sample_logs/auth_events.csv --output reports/triage_report.md
