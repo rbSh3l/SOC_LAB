@@ -1,1 +1,13 @@
+# SOC-Lite Triage Tool
 
+## Tool Execution
+
+![Tool Run](screenshots/tool_run.png)
+
+## Generated Report
+
+![Report](screenshots/report.png)
+
+## JSON Alerts
+
+![Alerts](screenshots/alerts.png)
