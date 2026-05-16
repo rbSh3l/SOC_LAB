@@ -41,7 +41,7 @@ The SOC Threat Monitoring Dashboard was created to visualize authentication atta
 
 ## Dashboard Preview
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
+![Dashboard Overview](screenshots/dashboard_overview.png)
 
 ## Tools Used
 
