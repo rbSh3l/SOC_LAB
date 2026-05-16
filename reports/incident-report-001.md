@@ -11,6 +11,9 @@ The investigation detected repeated failed login attempts against multiple commo
 # 🛠️ Detection Method
 
 The following SPL query was used to identify suspicious authentication activity:
+## 🔎 SPL Query Used
+
+![Brute Force SPL Query](../screenshots/BF_script.png)
 
 
 Findings
