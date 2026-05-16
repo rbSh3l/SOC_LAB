@@ -27,7 +27,7 @@ Splunk statistical analysis showed repeated attempts across multiple usernames o
 
 ## SSH Brute Force Detection
 
-![Brute Force Statistics](screenshots/brute-force-statistics.png)
+![Brute Force Statistics](screenshots/BF_stats.png)
 
 ## Tools Used
 
