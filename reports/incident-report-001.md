@@ -52,6 +52,7 @@ Repeated authentication failures detected
 Multiple account names targeted
 Potential unauthorized access attempt
 No confirmed successful compromise observed
+
 ✅ Recommended Actions
 Block malicious source IP addresses
 Enforce MFA for SSH access
