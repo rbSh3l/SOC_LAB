@@ -29,6 +29,20 @@ Splunk statistical analysis showed repeated attempts across multiple usernames o
 
 ![Brute Force Statistics](screenshots/BF_stats.png)
 
+# 📊 Splunk Dashboard
+
+The SOC Threat Monitoring Dashboard was created to visualize authentication attacks, monitor suspicious activity, and support threat detection workflows.
+
+## Dashboard Features
+- Top attacking IP addresses
+- Most targeted usernames
+- Authentication failures over time
+- SSH brute-force monitoring
+
+## Dashboard Preview
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
 ## Tools Used
 
 Splunk, soc_lite
