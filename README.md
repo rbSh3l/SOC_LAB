@@ -31,7 +31,7 @@ Splunk statistical analysis showed repeated attempts across multiple usernames o
 
 ## Tools Used
 
-Splunk 
+Splunk, soc_lite
 
 ## Planned Features
 
