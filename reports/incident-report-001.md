@@ -53,10 +53,11 @@ Multiple account names targeted
 Potential unauthorized access attempt
 No confirmed successful compromise observed
 
-✅ Recommended Actions
-Block malicious source IP addresses
-Enforce MFA for SSH access
-Disable unused/default accounts
-Implement SSH rate limiting
-Review authentication logs for successful compromise attempts
-Restrict public SSH exposure where possible
+✅ Recommended Actions:
+
+-Block malicious source IP addresses
+-Enforce MFA for SSH access
+-Disable unused/default accounts
+-Implement SSH rate limiting
+-Review authentication logs for successful compromise attempts
+-Restrict public SSH exposure where possible
