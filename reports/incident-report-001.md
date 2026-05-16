@@ -12,19 +12,11 @@ The investigation detected repeated failed login attempts against multiple commo
 
 The following SPL query was used to identify suspicious authentication activity:
 
-```spl
-index=botsv3 sourcetype=linux_secure ("Failed password" OR "invalid user")
-| rex "invalid user (?<target_user>\\w+)"
-| stats count min(_time) as first_seen max(_time) as last_seen by src_ip target_user
-| convert ctime(first_seen)
-| convert ctime(last_seen)
-| sort - count
 
-**_____________________________________________________________________________________________________________________________________________________________________________________________________________******
-🔍 **Findings**
+Findings
 Suspicious Source IP
 172-31-12-76
-**Targeted Usernames**
+Targeted Usernames
 admin
 test
 pi
